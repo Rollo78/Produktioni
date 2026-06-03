@@ -1,0 +1,20 @@
+plugins {
+    id 'com.android.application'
+}
+
+android {
+    namespace "at.amteq.produktion5046fixed"
+    compileSdk 35
+
+    defaultConfig {
+        applicationId "at.amteq.produktion5046fixed"
+        minSdk 23
+        targetSdk 35
+        versionCode 5046001
+        versionName "5046-qapp-style-new-package"
+    }
+}
+
+dependencies {
+    implementation 'androidx.core:core:1.13.1'
+}
